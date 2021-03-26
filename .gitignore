@@ -21,7 +21,7 @@
 /config/secrets.yml
 /config/deploy-secrets.yml
 /config/maintenance.yml
-
+/config/enviroments/production.rb
 /coverage
 
 /config/beta-testers.txt
