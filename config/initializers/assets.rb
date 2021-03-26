@@ -16,5 +16,14 @@ Rails.application.config.assets.precompile += %w[print.css]
 Rails.application.config.assets.precompile += %w[pdf_fonts.css]
 Rails.application.config.assets.precompile += %w[sdg/*.png]
 Rails.application.config.assets.precompile += %w[sdg/**/*.png]
+Rails.application.config.assets.precompile += %w[custom/modernizr.js]
+Rails.application.config.assets.precompile += %w[custom/pace.min.js]
+Rails.application.config.assets.precompile += %w[custom/jquery-2.1.3.min.js]
+Rails.application.config.assets.precompile += %w[custom/plugins.js]
+Rails.application.config.assets.precompile += %w[custom/main.js]
 
 # Loads custom images and custom fonts before app/assets/images and app/assets/fonts
+
+Rails.application.config.assets.precompile += %w[custom/muli/muli-bold-webfont.woff2]
+Rails.application.config.assets.precompile += %w[custom/logo_200px.png]
+Rails.application.config.assets.precompile += %w[custom/skylinePBA.jpg]
