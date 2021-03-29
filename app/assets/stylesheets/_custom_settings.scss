@@ -2718,3 +2718,79 @@ body > header,
   }
 }
 
+.home-page,
+.custom-page,
+.sdg-goal-show,
+.sdg-goals-index {
+
+  a {
+
+    p {
+
+      &.description {
+        color: $text;
+        word-wrap: break-word;
+      }
+    }
+  }
+
+  .background-header {
+    clip-path: ellipse(60% 80% at 50% 0%);
+    height: $line-height * 2;
+    background: $highlight;
+    margin-top: rem-calc(-48);
+  }
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .card a {
+      height: 100%;
+    }
+  }
+
+  .card {
+    border: 0;
+    flex-grow: 0;
+    overflow: visible;
+
+    a {
+      .figure-card img {
+        transition-duration: 0.3s;
+        transition-property: transform;
+      }
+    }
+
+    a:hover {
+      box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+      text-decoration: none;
+
+      .figure-card img {
+        transform: scale(1.1);
+      }
+    }
+
+    p,
+    .sdg-tag-list {
+      padding: 0 $line-height / 4;
+    }
+  }
+
+  h2,
+  h3 {
+
+    &.title {
+      display: inline-block;
+      border-top: 4px solid $brand;
+      margin-bottom: 0;
+      min-width: rem-calc(240);
+      padding: $line-height / 2 0;
+    }
+  }
+
+  figure img {
+    height: 50% !important;
+    width: 50% !important;
+  }
+}
