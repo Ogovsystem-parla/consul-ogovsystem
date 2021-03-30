@@ -11,6 +11,7 @@ $outline-focus:     3px solid transparent !important;
 
 $link:              #000;
 $link-hover:        darken($link, 20%);
+$body-font-family: "lato", "Source Sans Pro", "Helvetica", "Arial", sans-serif !important;
 
 /* ===================================================================
  * fonts.scss
@@ -1856,7 +1857,7 @@ h1.header1 {
 /* line 1878, app/assets/stylesheets/_custom_settings.scss */
 .btn {
   display: inline-block;
-  font-weight: 400;
+  /*font-weight: 400; */
   color: #ffffff;
   text-align: center;
   vertical-align: middle;
@@ -2783,7 +2784,7 @@ body > header,
     &.title {
       display: inline-block;
       border-top: 4px solid $brand;
-      margin-bottom: 0;
+      margin-bottom: 2;
       min-width: rem-calc(240);
       padding: $line-height / 2 0;
     }
@@ -2793,4 +2794,146 @@ body > header,
     height: 50% !important;
     width: 50% !important;
   }
+}
+
+.budget-header {
+  @extend %brand-background;
+  margin-top: -$line-height;
+  padding-bottom: $line-height;
+  padding-top: $line-height;
+
+  h1,
+  h2,
+  p,
+  a,
+  .back,
+  .icon-angle-left,
+  .description {
+    color: #fff;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  .confirmed {
+    font-size: rem-calc(24);
+    font-weight: bold;
+  }
+
+  .info {
+    background: #6a2a72;
+
+    p {
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+.help-header,
+.section-header {
+  background: #fafafa;
+  border-bottom: 1px solid #eee;
+  margin-top: 0 !important;
+  margin-bottom: $line-height;
+  padding-bottom: $line-height / 2;
+  padding-top: $line-height;
+
+  h1 {
+    font-size: rem-calc(24);
+    text-transform: uppercase;
+  }
+}
+
+.budget-header {
+  @extend %brand-background;
+  margin-top: 0 !important;
+  padding-bottom: $line-height;
+  padding-top: $line-height;
+
+  h1,
+  h2,
+  p,
+  a,
+  .back,
+  .icon-angle-left,
+  .description {
+    color: #fff;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  .confirmed {
+    font-size: rem-calc(24);
+    font-weight: bold;
+  }
+
+  .info {
+    background: #6a2a72;
+
+    p {
+      margin-bottom: 0;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.jumbo {
+  background: $highlight;
+  margin-bottom: $line-height;
+  margin-top: 0 !important;
+  padding-bottom: $line-height;
+  padding-top: $line-height;
+
+  @include breakpoint(medium) {
+    padding: rem-calc(24) 0;
+  }
+
+  &.light {
+    background: #ecf0f1;
+  }
+}
+.featured-proposals {
+  background: #fff !important;
+}
+
+.featured-proposals .supports .button-support {
+  background: #0097ea !important;
+  color: #fff !important;
+  margin-top: 0;
+}
+
+.proposal .supports .button-support {
+  background: #0097ea !important;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+}
+
+.button.expanded {
+  display: block;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  background: #fff;
+  border-color: #0097ea;
+  color: #009beb;
+}
+a.button:hover, a.button:focus {
+  /* text-decoration: none; */
+  background: rgba(1, 127, 255, 0.4) !important;
+}
+.participation-not-allowed a {
+  color: #000 !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.featured-proposals .supports .participation-not-allowed {
+  background: #abaaa9 !important;
+  font-size: 0.875rem;
+  padding-top: 0;
+  color: #000 !important;
 }
