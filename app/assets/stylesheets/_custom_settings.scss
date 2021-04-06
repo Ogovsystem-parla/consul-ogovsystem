@@ -992,7 +992,7 @@ img.serice-content1 {
 
 footer a,
 footer a:visited {
-  color: #39b54a;
+  color: #39b54a !important;
   text-decoration: none !important;
 }
 
@@ -1002,7 +1002,7 @@ footer p {
 
 footer a:hover,
 footer a:focus {
-  color: white;
+  color: white !important;
 }
 
 footer h4 {
@@ -2075,7 +2075,7 @@ body > header,
     &.title {
       display: inline-block;
       border-top: 4px solid $brand;
-      margin-bottom: 2;
+      margin-bottom: 2px !important;
       min-width: rem-calc(240);
       padding: $line-height / 2 0;
     }
@@ -2196,6 +2196,4 @@ a.button:hover, a.button:focus {
   color: #000 !important;
 }
 
-.icon-like {
-  color:#2196f3;
-}
+
