@@ -11,7 +11,7 @@ $outline-focus:     3px solid transparent !important;
 
 $link:              #000;
 $link-hover:        darken($link, 20%);
-$body-font-family: "lato", "Source Sans Pro", "Helvetica", "Arial", sans-serif !important;
+$body-font-family:  "lato", "Source Sans Pro", "Helvetica", "Arial", sans-serif !important;
 
 /* ===================================================================
  * fonts.scss
@@ -2075,7 +2075,7 @@ body > header,
     &.title {
       display: inline-block;
       border-top: 4px solid $brand;
-      margin-bottom: 2px !important;
+      margin-bottom: 30px !important;
       min-width: rem-calc(240);
       padding: $line-height / 2 0;
     }
@@ -2171,18 +2171,22 @@ body > header,
   margin-top: 0.75rem;
 }
 
+
 .button.expanded {
   display: block;
   width: 100%;
   margin-right: 0;
   margin-left: 0;
-  background: #fff;
-  border-color: #0097ea;
-  color: #009beb;
+  background: rgba(62, 142, 42, 0.96);
+  border-color: 2px solid #008dd2;
+  color: #fff;
+  font-weight: bold;
 }
-a.button:hover, a.button:focus {
+a.button.expanded:hover, a.button.expanded:focus {
   /* text-decoration: none; */
-  background: rgba(1, 127, 255, 0.4) !important;
+  color: #fff;
+  background-color: rgba(62, 142, 42, 0.69);
+  border-color: #ffff;
 }
 .participation-not-allowed a {
   color: #000 !important;
@@ -2196,4 +2200,45 @@ a.button:hover, a.button:focus {
   color: #000 !important;
 }
 
+/* line 214, app/assets/stylesheets/participation.scss */
+.participation-not-allowed {
+  background: #dee0e3 !important;
+  color: #000 !important;
+  left: 0;
+  line-height: 1.5rem;
+  min-height: 100%;
+  padding: 0.75rem;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 227, app/assets/stylesheets/participation.scss */
+.participation-not-allowed p {
+  color: #000 !important;
+  margin: 0 0.75rem;
+  text-align: left;
+}
+
+
+
+/* line 216, ../../../../var/lib/gems/2.5.0/gems/foundation-rails-6.6.2.0/vendor/assets/scss/components/_button.scss */
+.button.hollow, .button.hollow:hover, .button.hollow:focus, .button.hollow.disabled, .button.hollow.disabled:hover, .button.hollow.disabled:focus, .button.hollow[disabled], .button.hollow[disabled]:hover, .button.hollow[disabled]:focus {
+  background-color: transparent !important;
+}
+
+/* line 234, ../../../../var/lib/gems/2.5.0/gems/foundation-rails-6.6.2.0/vendor/assets/scss/components/_button.scss */
+.button.hollow, .button.hollow.disabled, .button.hollow[disabled], .button.hollow.disabled:hover, .button.hollow[disabled]:hover, .button.hollow.disabled:focus, .button.hollow[disabled]:focus {
+  border: 1px solid #1779ba;
+  color: #1779ba;
+}
+
+/* line 242, ../../../../var/lib/gems/2.5.0/gems/foundation-rails-6.6.2.0/vendor/assets/scss/components/_button.scss */
+.button.hollow:hover, .button.hollow:focus {
+  border-color: #000 !important;
+  color: #000 !important;
+  text-decoration: underline !important;
+}
 
