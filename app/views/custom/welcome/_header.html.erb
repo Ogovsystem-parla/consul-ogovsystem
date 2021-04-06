@@ -4,10 +4,10 @@
     <div class="container">
         <div class="masthead-subheading"><span><%= header.label %></span><h3><%= header.title %></h3></div>
         <div class="masthead-heading text-uppercase"><%= header.description %></div>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#">Debates</a>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#">Propuestas</a>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#">Presupuestos</a>
-        <a class="btn btn-primary btn-xl text-uppercase" href="#">Consultas</a>
+        <a class="btn" href=<%= debates_path %>>Debates</a>
+        <a class="btn" href=<%= proposals_path %>>Propuestas</a>
+        <a class="btn" href=<%= budgets_path %>>Presupuestos</a>
+        <a class="btn" href=<%= polls_path %>>Consultas</a>
     </div>
 </div>
 <% end %>
