@@ -2104,10 +2104,11 @@ body > header,
 }
 
 .budget-header {
-  background-color: #7d7c7c !important;
+  background-color: #ecf0f1 !important;
   margin-top: 0 !important;
   padding-bottom: $line-height;
   padding-top: $line-height;
+  color:#000 !important;
 
   h1,
   h2,
@@ -2116,7 +2117,8 @@ body > header,
   .back,
   .icon-angle-left,
   .description {
-    color: #fff;
+    color: #000 !important;
+    font-size: rem-calc(28) !important;
   }
 
   a {
