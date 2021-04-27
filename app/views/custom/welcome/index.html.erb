@@ -19,7 +19,6 @@
   <div class="row">
     <% if @cards.any? %>
       <div class="small-12 column <%= "large-8" if feed_processes_enabled? %>">
-        <h2 class="title"><%= t("welcome.cards.title") %></h2>
 
         <%= render "shared/cards", cards: @cards %>
       </div>
@@ -56,7 +55,7 @@
 
                     <div class="bgrid step" data-item="2">
                         <h3>¡Apoyas!</h3>
-                        <p>Apoyas una propuesta haciendo click en el botón de “apoyar” propuesta si así lo consideras y estás de acuerdo con lo que otros ciudadanos proponen para mejorar el ayuntamiento.
+                        <p>Apoyas una propuesta haciendo click en el botón de “apoyar” propuesta si así lo consideras y estás de acuerdo con lo que otros ciudadanos proponen para mejorar la ciudad.
                         </p>
                     </div>
 
@@ -64,7 +63,7 @@
                     width: 100%;
                 ">
                         <h3>y… ¡Tu Ayuntamiento lo implementa!</h3>
-                        <p>Las propuestas son clasificadas, atendiendo a la materia de la que se tratan, por las diferentes concejalías integrantes del Ayuntamiento de Barbate.
+                        <p>Las propuestas son clasificadas, atendiendo a la materia de la que se tratan, por las diferentes concejalías integrantes del Ayuntamiento de Fuengirola.
                             Posteriormente, se procede a su análisis y evaluación tras ser recabados los diferentes informes técnicos de los distintos departamentos.
                             De este análisis se extraerá un listado definitivo de proyectos que se consideran viables y serán sometidos a votación durante el plazo de tiempo establecido para ello.
                         </p>
@@ -91,26 +90,30 @@
     <img class="scale-with-grid" src="https://www.fuengirola.es/wp-content/uploads/2017/06/icon_ayto_white.png" alt="icon_ayto_white" width="252" height="182"></div></div>
         <div class="row">
             <div class="col-full">
-                <h1 class="intro-header"  data-aos="fade-up">Más información</h1>
+                <h1 class="intro-header"  data-aos="fade-up">Gobierno Abierto</h1>
 
                 <p data-aos="fade-up">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                Conoce el ecosistema de Gobierno Abierto del Ayuntamiento de Fuengirola
 
                 </p>
                 <div class="buttons" data-aos="fade-up">
-                    <a href="#" class="button1 stroke">
-                        <span class="icon-user-add" aria-hidden="true"></span>
-                        Participación
-                    </a>
-                    <a href="#"  class="button1 stroke">
+                    <a href=" https://transparencia.fuengirola.es/"  class="button1 stroke">
                         <span class="icon-user-add" aria-hidden="true"></span>
                         Transparencia
                     </a>
-                    <a href="#" class="button1 stroke">
-                        <span class="icon-bar-chart" aria-hidden="true"></span>
-                        Datos abiertos
+                    <a href="http://visoreconomico.fuengirola.es/" class="button1 stroke">
+                    <span class="icon-user-add" aria-hidden="true"></span>
+                    Presupuestos
                     </a>
+                    <a href="http://canaletico.fuengirola.es/" class="button1 stroke">
+                        <span class="icon-bar-chart" aria-hidden="true"></span>
+                        Canal Ético
+                    </a>
+                    <a href="http://datosabiertos.fuengirola.es/ " class="button1 stroke">
+                    <span class="icon-bar-chart" aria-hidden="true"></span>
+                    Datos abiertos
+                </a>
+
 
 
                 </div>

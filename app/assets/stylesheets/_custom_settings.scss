@@ -13,6 +13,14 @@ $link:              #000;
 $link-hover:        darken($link, 20%);
 $body-font-family:  "lato", "Source Sans Pro", "Helvetica", "Arial", sans-serif !important;
 
+$foundation-palette: (
+  primary: #1779ba,
+  secondary: #767676,
+  success: #3adb76,
+  warning: rgba(62,142,42,0.96) !important,
+  alert: #cc4b37,
+);
+
 /* ===================================================================
  * fonts.scss
  *
@@ -997,7 +1005,7 @@ footer a:visited {
 }
 
 footer p {
-  color: #fff;
+  color: rgb(177, 174, 174);
 }
 
 footer a:hover,
