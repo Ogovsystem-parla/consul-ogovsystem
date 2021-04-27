@@ -4,8 +4,8 @@
     <div class="container">
         <div class="masthead-subheading"><span><%= header.label %></span><h3><%= header.title %></h3></div>
         <div class="masthead-heading text-uppercase"><%= header.description %></div>
-        <a class="btn" href=<%= proposals_path %>>Propuestas</a>
-        <a class="btn" href=<%= polls_path %>>Votaciones</a>
+        <a class="btn" href=<%= proposals_path %>><%= t("proposals.index.title") %></a>
+        <a class="btn" href=<%= polls_path %>><%= t("polls.index.title")%></a>
     </div>
 </div>
 <% end %>
