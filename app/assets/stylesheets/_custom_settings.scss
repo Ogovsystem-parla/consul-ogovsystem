@@ -5,7 +5,7 @@
 //
 
 $brand:             #fff;
-$dark:              darken($brand, 55%);
+$dark:              darken($brand, 55%) !important;
 $button-radius:     rem-calc(0) !important;
 $outline-focus:     3px solid transparent !important;
 
@@ -2246,3 +2246,14 @@ a.button.expanded:hover, a.button.expanded:focus {
   text-decoration: underline !important;
 }
 
+/* line 17, app/assets/stylesheets/mixins/colors.scss */
+*::-moz-selection,
+* *::-moz-selection {
+  background-color: #000 !important;
+  color: #fdfdfd;
+}
+*::selection,
+* *::selection {
+  background-color: #000 !important;
+  color: #fdfdfd;
+}
