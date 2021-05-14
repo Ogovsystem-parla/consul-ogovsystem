@@ -250,7 +250,7 @@ $body-font-family:  "lato", "Source Sans Pro", "Helvetica", "Arial", sans-serif 
 }
 
 .about-features .feature .icon i {
-  color: #39b54a;
+  color: #08765f;
   font-size: 4.8rem;
 }
 
@@ -335,7 +335,7 @@ img.serice-content1 {
   line-height: 54px;
   text-align: center;
   border-radius: 50%;
-  background-color: #059503;
+  background-color: #08765f;
   box-shadow: 0 0 0 15px #ffffff;
   z-index: 500;
   position: absolute;
@@ -897,7 +897,7 @@ img.serice-content1 {
  * ------------------------------------------------------------------- */
 
 #download {
-  background: #008dd2;
+  background: #08765f;
   color: #ffff;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -987,13 +987,13 @@ img.serice-content1 {
   padding-bottom: 4.2rem;
   font-size: 1rem;
   line-height: 2.7rem;
-  background:#000;
+  background:#333;
   color: rgba(255, 255, 255, 0.9);
 }
 
 footer a,
 footer a:visited {
-  color: #39b54a !important;
+  color: #fff !important;
   text-decoration: none !important;
 }
 
@@ -1104,8 +1104,8 @@ footer ul a:visited {
   top: 0;
   right: 0;
   color: #ffffff;
-  background: #39b54a;
-  border-color: #39b54a;
+  background: #fff;
+  border-color: #fff;
   border-radius: 0 .5rem .5rem 0;
   padding: 0 15px;
 }
@@ -1185,7 +1185,7 @@ footer ul a:visited {
   width: 60px;
   line-height: 60px;
   text-align: center;
-  background: #008dd2;
+  background: #08765f;
   color: rgba(255, 255, 255, 0.9);
   text-align: center;
   text-transform: uppercase;
@@ -1340,7 +1340,7 @@ footer ul a:visited {
     }
 
     a {
-      color: #14679e !important;
+      color: #08765f !important;
       padding-left: 0;
 
       @include breakpoint(medium) {
@@ -1493,7 +1493,7 @@ footer ul a:visited {
   }
 
   a {
-    color: #14679e !important;
+    color: #08765f !important;
     display: inline-block;
     line-height: $line-height * 2;
     position: relative;
@@ -1645,8 +1645,8 @@ $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
  input[type="submit"].button1-primary,
  input[type="reset"].button1-primary,
  input[type="button"].button1-primary {
-   background-color: rgba(0, 141, 210, 0.5);
-     border-color: #008dd2;
+   background-color: rgba(8, 118, 95,0.5);
+     border-color: rgb(4, 136, 109);
    color: #FFFFFF;
  }
 
@@ -1661,7 +1661,7 @@ $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
  input[type="reset"].button1-primary:focus,
  input[type="button"].button1-primary:focus {
    background: #309a3f;
-   border-color: #309a3f;
+   border-color:  rgb(4, 136, 109);
  }
 
  button1.full-width,
@@ -1684,14 +1684,13 @@ $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
 
  button1.stroke,
  .button1.stroke {
-   background: rgba(0, 141, 210, 0.5);
+   background: rgba(8, 118, 95, 0.5);
    color: #fff !important;
  }
-
  button1.stroke:hover,
  .button1.stroke:hover {
-   border: 0.2rem solid #39b54a;
-   color: #39b54a;
+   border: 0.2rem solid rgba(8, 118, 95, 0.5);
+   color: rgba(8, 118, 95, 0.5);
  }
 
  button1.pill,
@@ -1755,13 +1754,13 @@ $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   /*text-align: center;*/
-  color: #fff;
+  color: #000;
   background-image: url(custom/skylinePBA.jpg);
   background-blend-mode: overlay;
-    background-color: rgba(47, 46, 46,0.8);
+    background-color: rgba(47,46,46,0.2);
     /*margin-bottom: 100px;*/
 
- /* background-repeat: no-repeat;
+ background-repeat: no-repeat; /*
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
@@ -1867,7 +1866,7 @@ h1.header1 {
   -ms-user-select: none;
   user-select: none;
   background-color: transparent;
-  border: 2px solid #008dd2;;
+  border: 2px solid #08765f;;
   padding: 0.375rem 0.75rem;
   font-size: 1.1rem;
   line-height: 2.5;
@@ -1876,7 +1875,7 @@ h1.header1 {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  background: rgba(1, 127, 255, 0.4);
+  background:rgba(0, 155, 123,0.4);
   font-family: "montserrat-regular", sans-serif;
   padding: 0 2.2rem;
 }
@@ -1892,8 +1891,8 @@ h1.header1 {
 /* line 1901, app/assets/stylesheets/_custom_settings.scss */
 .btn:hover {
   color: #fff;
-  background-color: rgba(0, 141, 210, 0.5);
-  border-color: #ffff;
+  background-color: rgba(0, 155, 123, 0.4);
+  border-color: #3333;
 }
 
 /* line 1905, app/assets/stylesheets/_custom_settings.scss */
@@ -2162,27 +2161,24 @@ body > header,
 }
 
 .featured-proposals .supports .button-support {
-  background: #0097ea !important;
+  background: #08765f !important;
   color: #fff !important;
   margin-top: 0;
 }
-
 .proposal .supports .button-support {
-  background: #0097ea !important;
+  background: #08765f !important;
   color: #fff !important;
   display: inline-block;
   font-size: 0.875rem;
   margin-top: 0.75rem;
 }
-
-
 .button.expanded {
   display: block;
   width: 100%;
   margin-right: 0;
   margin-left: 0;
-  background: rgba(62, 142, 42, 0.96);
-  border-color: 2px solid #008dd2;
+  background: rgba(0, 155, 123, 0.96);
+  border-color: 2px solid #08765f;
   color: #fff;
   font-weight: bold;
 }
@@ -2234,9 +2230,15 @@ a.button.expanded:hover, a.button.expanded:focus {
 }
 
 /* line 234, ../../../../var/lib/gems/2.5.0/gems/foundation-rails-6.6.2.0/vendor/assets/scss/components/_button.scss */
-.button.hollow, .button.hollow.disabled, .button.hollow[disabled], .button.hollow.disabled:hover, .button.hollow[disabled]:hover, .button.hollow.disabled:focus, .button.hollow[disabled]:focus {
-  border: 1px solid #1779ba;
-  color: #1779ba;
+.button.hollow,
+.button.hollow.disabled,
+.button.hollow[disabled],
+.button.hollow.disabled:hover,
+.button.hollow[disabled]:hover,
+.button.hollow.disabled:focus,
+.button.hollow[disabled]:focus {
+  border: 1px solid #08765f;
+  color: #08765f;
 }
 
 /* line 242, ../../../../var/lib/gems/2.5.0/gems/foundation-rails-6.6.2.0/vendor/assets/scss/components/_button.scss */
